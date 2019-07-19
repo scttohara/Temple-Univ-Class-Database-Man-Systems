@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER dia" id="AA4E36FE-5CF0-6DDF-0BF4-FD70CF49440A" version="3.5">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 03:45:04 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AA4E36FE-5CF0-6DDF-0BF4-FD70CF49440A</designId>
+</OSDM_Design>

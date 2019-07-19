@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Piano-Piano_model" directorySegmentName="seg_0" id="C8AEF129-CB91-BF73-C3CB-6C2A4ED3C0DF">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:12:32 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<sourcePk>E48CB985-F1C8-7F52-45D1-64E01FB0FA16</sourcePk>
+<targetPk>71986993-75E7-31BC-61A3-B99FB67D26CC</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9E7B2131-2E35-3AB8-237A-BA150611E198</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B4E72A57-9E87-FDEA-7823-BA8A9B63A25F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

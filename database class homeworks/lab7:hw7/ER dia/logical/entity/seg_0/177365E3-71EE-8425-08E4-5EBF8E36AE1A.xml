@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="177365E3-71EE-8425-08E4-5EBF8E36AE1A" name="Inspection_info">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:21:45 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serial_Number" id="D579BD23-40B3-17E4-4E9F-A997D360ECEF">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 08:44:56 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Emp_Num_inspection1" id="D66D6DAB-6486-32C7-3533-F023103980E9">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 08:44:43 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Emp_Num_inspection2" id="2A22C3A0-8F82-B828-F9AB-C7A6DE939A4F">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 08:45:24 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inspection1_date" id="2E9D873F-03EF-39A9-90BD-50645CB65BD6">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:22:18 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inspection1_quality" id="EF11CA6C-7A94-7B08-A098-E1CC23AF1456">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:22:50 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inspection2_date" id="7DE0F2E2-E39F-9486-D0C7-BD6F57EDDA68">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:23:17 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Inspection2_quality" id="2457A028-3ACE-BBB3-CB9D-FA40DAC9C5AA">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:23:29 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Serial Number" id="E69E37BA-D51C-09EB-1F44-79BCB896D28E">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:34:03 UTC</createdTime>
+<generatorID>6671D17C-5C6B-6674-257A-34539A40AC90</generatorID>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<referedAttribute>04F01D10-AD2C-C8DF-E967-70EBFAB692B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

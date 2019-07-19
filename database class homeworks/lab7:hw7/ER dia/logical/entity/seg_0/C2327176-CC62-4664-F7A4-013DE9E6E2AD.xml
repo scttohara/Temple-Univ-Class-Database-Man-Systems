@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2327176-CC62-4664-F7A4-013DE9E6E2AD" name="Tablet_Types">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:07:43 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Num" id="B871431A-C704-0BA4-49EE-003B3AF9308E">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:18:28 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F4610396-AC2F-08F3-0404-CCB1E6C3E756">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:18:41 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Storage_Amount" id="BE7E921D-2FE0-EB36-E75D-0FDE1F050731">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:18:54 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Display_type" id="4FF0011B-BA5A-DAEA-9B2D-FF6676433074">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:19:17 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Processor_Man_Unique_Code" id="BE2035A3-C139-4251-DBCA-5EFB1A690ABE">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:21:11 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Processor_Man_Unique_code1" id="FC826A19-6D6A-818B-823A-4B93728D75A2">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:22:34 UTC</createdTime>
+<generatorID>640A6643-E527-AB6E-84A6-1C38EE6481CB</generatorID>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>59928D88-62D5-95A7-5A04-31C06598E020</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Operating System" id="E61CA6EB-CBFC-9F95-25E9-16C0548FE82E">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 08:30:09 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2DAFA692-3A22-6EBD-C153-1093CD3A2788" name="Tablet_Types PK">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:18:40 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B871431A-C704-0BA4-49EE-003B3AF9308E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

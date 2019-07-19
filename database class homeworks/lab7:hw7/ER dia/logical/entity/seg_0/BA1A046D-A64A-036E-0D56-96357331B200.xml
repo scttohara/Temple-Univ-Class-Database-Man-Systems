@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA1A046D-A64A-036E-0D56-96357331B200" name="Technicans">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:30:13 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Emp_Num" id="484A6EE5-2188-11BC-43FC-DEEAAE749A5E">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:30:21 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Supervisor_Emp_Num" id="DF841DBE-EF68-5475-C753-311B9E298C20">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:42:25 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Head_Technican_Num" id="39B4C5D0-B5A4-8E88-FE97-44DF558FD13E">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:42:53 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

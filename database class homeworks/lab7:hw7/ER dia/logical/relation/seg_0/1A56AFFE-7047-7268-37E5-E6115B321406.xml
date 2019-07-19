@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Supervisors report to/Are supervised by" directorySegmentName="seg_0" id="1A56AFFE-7047-7268-37E5-E6115B321406">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 07:00:04 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA1A046D-A64A-036E-0D56-96357331B200</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA1A046D-A64A-036E-0D56-96357331B200</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

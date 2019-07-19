@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B4E72A57-9E87-FDEA-7823-BA8A9B63A25F" name="Piano">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 03:53:11 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Serial Number" id="04F01D10-AD2C-C8DF-E967-70EBFAB692B7">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:29:01 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Manufacturing completion date" id="971C6468-3C65-AD40-13F8-BDDB056C7D52">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:29:10 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>Man_comp_date</preferredAbbreviation>
+</Attribute>
+<Attribute name="Model_ID_Number" id="F15CE2C8-939A-FAC4-4F1F-146F54819DD3">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:29:57 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<formulaDesc>{ID_Num, Name}</formulaDesc>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Aggregate</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1</structuredType>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<propertyMap>
+<property name="ID Number" value=""/>
+<property name="Name" value=""/>
+</propertyMap>
+</Attribute>
+<Attribute name="Designer of the model" id="76BC596E-F5D7-B7C2-5DB4-7CFB0C652839">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:38:58 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total made" id="9E8A6357-C76C-94D0-9F67-8815D109DCA6">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:39:24 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<sourceType>Aggregate</sourceType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Model_ID_Number1" id="9CF8F93A-D26F-991F-0C5F-D7D407108CAF">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 05:15:09 UTC</createdTime>
+<generatorID>C8AEF129-CB91-BF73-C3CB-6C2A4ED3C0DF</generatorID>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8BCD915D-3633-9BBF-21B3-16123E986D9C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71986993-75E7-31BC-61A3-B99FB67D26CC" name="Piano PK">
+<createdBy>scttohara</createdBy>
+<createdTime>2018-10-25 04:43:06 UTC</createdTime>
+<ownerDesignName>ER dia</ownerDesignName>
+<engineerTo>
+<item key="A36805EA-00EA-3174-2767-4E4AAACD501C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>04F01D10-AD2C-C8DF-E967-70EBFAB692B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
